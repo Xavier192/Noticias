@@ -1,0 +1,66 @@
+nav{
+padding:20px;
+background-color:black;
+font-size:1.4em;
+}
+body{
+background:linear-gradient(#CECEF6,white,#CECEF6);
+font-family: 'Kreon', serif;
+}
+
+h2{
+	font-size:45px;
+}
+h4{
+	font-size:35px;
+}
+section{
+	margin-top:280px;
+	margin-left:80px;
+	margin-right:320px;
+}
+p{
+	font-size:16px;
+}
+#publi{
+position:absolute;
+right:0px;
+margin-top:250px;
+
+}
+#publiV{
+	display:none;
+}
+#caratula{
+	margin-top:70px;
+	height:60px;
+}
+figure img{
+	border:solid 3px black;
+}
+#banner{
+	border-bottom:solid 3px black;
+}
+
+@media only screen and (max-width: 760px) {
+	section{
+	margin-top:300px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+	#publiV{
+		display:block;
+		position:absolute;
+		right:0px;
+		left:0px;
+		top:200px;
+		margin:auto;
+	}
+	#logo{
+		margin-top:-25px;
+		margin-left:-25px;
+	}
+	#publi{
+		display:none;
+	}
+	}

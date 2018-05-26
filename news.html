@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Página web sobre la actualidad científica">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Ciencia, Actualidad, Vanguardismo, Noticias">
+	<meta property="og:title" content="Noticias Científicas">
+	<meta property="og:image" content="img/Portada.png">
+	<meta property="og:url" content="url_rawgit">
+	<meta property="og:site_name" content="Noticias">
+	<meta property="og:description" content="Noticias de actualidad científica">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/js.js"></script>
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<link rel="stylesheet" href="css/css.css">
+	<link rel="shortcut icon" href="img/title.ico">
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Francois+One|IM+Fell+French+Canon+SC|Kreon|Noto+Sans|Tangerine" rel="stylesheet"> 
+	<title>Noticias científicas</title>
+	<script src="js/js.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="news.html"><img  id="logo" src="img/logo_def.png" alt="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Inicio <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Noticias mas destacadas</a></li>
+          </ul>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+	  	  	<li>	
+			<div class="checkbox">
+            <label id="activar">
+            <input checked data-toggle="toggle" type="checkbox">
+            <span>Scroll</span>
+            </label>
+            </div>
+			
+		</li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<div id="caratula">
+		<img src="img/banner.jpg"  alt="caratula" id="banner" class="img-responsive center-block">
+	</div>
+<section>
+<div id="publi">
+<img src="img/publi.gif" alt="publicidad">
+</div>
+<div id="publiV">
+	<img src="img/publiV.jpg" alt="publi_vertical" class="img-responsive center-block">
+</div>
+
+<div id="publiIntermedia" class="text-center">
+<img src="img/publiIntermedia.gif">
+</div>
+
+<div class="container-fluid" id="contenedor">
+
+	<div class="row">
+		<div class="col-sm-6">
+		<br><br><br>
+			<a href="noticia-grafeno.html" class="noDecoration"><figure>
+		<img src="img/Grafeno.jpg" id="pic" class="img-responsive center-block" alt="Imatge">
+		<figcaption>
+			<h2><b>El grafeno podría revolucionar la industria del tinte</b></h2>
+			<p>Un equipo de la Universidad de Northwestern, Illnois, Estados Unidos, ha aprovechado el súper material grafeno para desarrollar un nuevo tinte.</p>		
+			<span><i>29/04/2018</i></span>
+		</figcaption>
+			</figure></a>
+		</div>
+		
+		<div class="col-sm-6">
+		<br><br><br>
+		<a href="noticia-marte.html" class="noDecoration">
+		<figure id="marte">
+		<img src="img/mart.jpg" class="img-responsive center-block" alt="Imatge">
+		<figcaption>
+			<h2><b>La sonda que fotografiará las puestas de Sol de Marte empieza a trabajar</b></h2>
+			<p>La sonda ExoMars TGO resolverá el misterio de la inesperada presencia de metano en el planeta, un gas que en la Tierra se asocia a procesos biológicos.</p>
+			<span><i>22/04/2018</i></span>
+		</figcaption>
+	</figure></a>
+		</div>
+	</div>
+	
+	<div class="row" >
+		<div class="col-sm-12" >
+		<a href="noticia-medicina.html">	<figure>
+		<img src="img/Medicina.jpg" alt="imatge medicina" class="img-responsive center-block">
+		<figcaption>
+			<h2><b>Un tratamiento experimental para evitar que muera su segundo hijo</b> </h2>
+			<p>Una pareja de Gipuzkoa reclama un tratamiento no aprobado contra el síndrome de Leigh para uno de sus mellizos, de cuatro años, tras ver morir al otro con los mismos síntomas</p>
+			<span><i>15/04/2018</i></span>
+		</figcaption>
+			</figure>
+			</a>
+		</div>
+	</div>
+	</div>
+	<div id="botonCargar" class="text-center">
+	<button class="btn btn-info btn-md">Cargar mas</button>
+	</div>
+</section>
+<div id="contenedor" class="text-center">
+	<div id="gifCarga">
+	<img src="img/gifCarga.gif" alt="divCarga">
+	</div>
+</div>
+
+</body>
+</html>

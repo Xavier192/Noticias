@@ -1,0 +1,133 @@
+#publi{
+position:absolute;
+right:0px;
+margin-top:50px;
+}
+nav{
+padding:16px;
+background-color:white;
+}
+
+li a{
+	font-size:1.4em;
+
+}
+#activar{
+	color:#bfbfbf;
+	font-size:1.4em;
+}
+body{
+background-color:#f9f9f9;
+background-image:url('../img/azul2.jpg');
+background-size:cover;
+background-repeat:no-repeat;
+font-family: 'Kreon', serif;
+}
+#publiIntermedia{
+	display:none;
+}
+
+figcaption{
+	background-color:white;
+	font-size:1.6em;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:20px;
+	border:solid 1.3px black;
+}
+section{
+margin-top:250px;
+padding-right:305px;
+margin-left:50px;
+text-align:center;
+}
+#gifCarga{
+position:fixed;
+top:20%;
+width:100%;
+height:100%;
+display:none;
+}
+
+
+.row{
+	margin-bottom:20px;
+	border-bottom:solid 2px #c4c4c4;
+}
+#publiV{
+	display:none;
+}
+#caratula img{
+	border-bottom:solid 3px black;
+}
+
+h1{
+	font-size:2.0em;
+}
+#caratula{
+	height:0px;
+	margin-top:80px;
+	
+}
+a:link{
+	text-decoration:none!important;
+	cursor:pointer;
+}
+a{
+	color:black;
+}
+
+figure img:hover{
+	filter:brightness(70%);
+}
+
+.checkbox{
+margin-right:40px;	
+}
+.text-center{
+	padding:10px;
+}
+
+@media (max-width:1000px){
+	#publi{
+		display:none;
+	}
+	section{
+		padding-right:20px;
+	}
+	#publiIntermedia{
+		display:block;
+	}
+}
+figure img{
+	border:solid 3px black;
+	transition: all 1s ease;
+   
+}
+
+@media (max-width: 760px) {
+	#publiIntermedia{
+		display:none;
+	}
+section{
+margin-top:280px;
+padding-right:0px;
+margin-left:0px;
+}
+#publiV{
+display:block;
+position:absolute;
+left:0px;
+right:0px;
+top:250px;
+margin:auto;
+}
+#logo{
+	margin-top:-20px;
+	margin-left:-25px;
+}
+#publi{
+	display:none;
+}
+}
+
