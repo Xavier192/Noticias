@@ -106,9 +106,9 @@ function cogerInformacion(){
 }
 
 function cargar(){
-		if(noticiasCargadas<3){
+		if(noticiasCargadas<4){
 		cargarSiguiente=false;
-		$.getJSON("https://rawgit.com/Xavier192/News/master/json/data"+noticiasCargadas+".json",function(jsonObject){
+		$.getJSON("https://rawgit.com/Xavier192/Noticias/master/json/data"+noticiasCargadas+".json",function(jsonObject){
 			if(contadorAbstracte%2==0){
 				añadirNoticias(jsonObject);	
 			}
