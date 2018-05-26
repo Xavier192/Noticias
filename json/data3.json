@@ -1,11 +1,11 @@
-[{
+[{ 
         "imagen": "img/tejido.jpg",
         "titulo": "Biomaterial que promueve el rebrote de tejido cerebral tras un derrame cerebral",
-        "descripcion": "FotografÌa microscÛpica que muestra nuevo tejido creciendo en la cavidad dejada por los efectos de un derrame cerebral en un ratÛn.",
+        "descripcion": "Fotograf√≠a microsc√≥pica que muestra nuevo tejido creciendo en la cavidad dejada por los efectos de un derrame cerebral en un rat√≥n.",
         "fecha": "14/05/2018"
 }, {
         "imagen": "img/hamburgesa.jpg",
-        "titulo": "Comer comida r·pida puede hacer que sea m·s difÌcil quedar embarazada",
-        "descripcion": "Los alimentos que consumen las mujeres podrÌan estar relacionados con el riesgo de infertilidad, seg˙n un nuevo estudio de Australia.",
+        "titulo": "Comer comida r√°pida puede hacer que sea m√°s dif√≠cil quedar embarazada",
+        "descripcion": "Los alimentos que consumen las mujeres podr√≠an estar relacionados con el riesgo de infertilidad, seg√∫n un nuevo estudio de Australia.",
         "fecha": "16/05/2018"
       }]
