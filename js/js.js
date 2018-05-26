@@ -93,11 +93,7 @@ else{
 
 function cogerInformacion(){
 	if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && cargarSiguiente) {
-		
-	
-		cargar();
-		
-		 
+		cargar();	 
 	}
 
 	
@@ -107,6 +103,7 @@ function cogerInformacion(){
 
 function cargar(){
 		if(noticiasCargadas<4){
+		$("#gifCarga").css("display","block");
 		cargarSiguiente=false;
 		$.getJSON("https://rawgit.com/Xavier192/Noticias/master/json/data"+noticiasCargadas+".json",function(jsonObject){
 			if(contadorAbstracte%2==0){
@@ -118,6 +115,7 @@ function cargar(){
 			contadorAbstracte++;
 			noticiasCargadas++;
 			cargarSiguiente=true;
+			$("#gifCarga").css("display","none");
 			 if(noticiasCargadas>=4){
 		 $('#botonCargar').text("No hay mas noticias");
 		 $('#botonCargar').css({'background-color':'#0B3B39','color':'white'});
@@ -126,6 +124,7 @@ function cargar(){
 	}
 	
 }
+
 
 function añadirNoticias(json){
 	

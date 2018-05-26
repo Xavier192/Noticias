@@ -43,10 +43,15 @@ text-align:center;
 }
 #gifCarga{
 position:fixed;
-top:20%;
+top:50%;
 width:100%;
 height:100%;
+background-color:white;
 display:none;
+opacity:0.2;
+}
+#gifCarga img{
+	width:10%;
 }
 
 
