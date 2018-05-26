@@ -118,7 +118,7 @@ function cargar(){
 			contadorAbstracte++;
 			noticiasCargadas++;
 			cargarSiguiente=true;
-			 if(noticiasCargadas>=3){
+			 if(noticiasCargadas>=4){
 		 $('#botonCargar').text("No hay mas noticias");
 		 $('#botonCargar').css({'background-color':'#0B3B39','color':'white'});
 		}
