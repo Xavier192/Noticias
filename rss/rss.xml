@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Noticias cientificas - Noticias sobre ciencia</title>
+		<link>https://rawgit.com/Xavier192/Noticias/master/news.html</link>
+		<description>Noticias científicas y la actualidad cientifica del momento</description>
+		<image>
+			<url>https://rawgit.com/Xavier192/Noticias/master/img/mart.jpg</url>
+			<title>Noticias científicas - Actualidad científica</title>
+			<link>https://rawgit.com/Xavier192/Noticias/master/news.html</link>
+		</image>
+		<item>
+			<title>El grafeno podría revolucionar la industria del tinte</title>
+			<link>https://rawgit.com/Xavier192/Noticias/master/noticia-grafeno.html</link>
+			<description><![CDATA[<img src="https://raw.githubusercontent.com/Xavier192/Noticias/master/img/grafeno.jpg"/>Un equipo de la Universidad de Northwestern, Illnois, Estados Unidos, ha aprovechado el súper material grafeno para desarrollar un nuevo tinte.]]></description>
+			<pubDate>Sun, 29 Apr 2018 21:00:00 EST</pubDate>
+			
+		</item>
+		<item>
+			<title>La sonda que fotografiará las puestas de Sol de Marte empieza a trabajar</title>
+			<link>https://rawgit.com/Xavier192/Noticias/master/noticia-marte.html</link>
+			<description><![CDATA[<img src="https://raw.githubusercontent.com/Xavuer192/Noticias/master/img/sonda.jpg"/>La sonda ExoMars TGO resolverá el misterio de la inesperada presencia de metano en el planeta, un gas que en la Tierra se asocia a procesos biológicos.]]>
+				</description>
+			<pubDate>Sun, 22 Apr 2018 20:30:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Un tratamiento experimental para evitar que muera su segundo hijo</title>
+			<link>https://rawgit.com/Xavier192/Noticias/master/noticia-medicina.html</link>
+			<description><![CDATA[<img src="https://raw.githubusercontent.com/Xavuer192/Noticias/master/img/noticia-medicina.html"/>Una pareja de Gipuzkoa reclama un tratamiento no aprobado contra el síndrome de Leigh para uno de sus mellizos, de cuatro años, tras ver morir al otro con los mismos síntomas]]>
+				</description>
+			<pubDate>Sun, 15 Apr 2018 20:30:00 EST</pubDate>
+		</item>
+	</channel>
+</rss>
